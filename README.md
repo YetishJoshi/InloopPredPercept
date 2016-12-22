@@ -1,4 +1,24 @@
-## Welcome to GitHub Pages
+# Low complexity in-loop prediction perceptual video coding for HEVC
+----
+The source code in this respository refers to the modified HEVC encoder used to generate results for the  paper titled:
+
+"Low complexity in-loop prediction perceptual video coding for HEVC"
+
+Published in: Broadband Multimedia Systems and Broadcasting (BMSB), 2016 IEEE International Symposium on 
+Paper available on IEEExplore website:
+https://doi.org/10.1109/BMSB.2016.7521919
+
+Abstract:
+This paper applies the concept of hybrid framework for perceptual video coding (PVC) during the 'in-loop' stages by extending it to the prediction stage. As low complexity environments of mobile phones and tablets are increasingly used to capture video, PVC is not occurring here due to the high complexity of perceptual algorithms. Being able to encode using PVC will enable distortion to be merited by non-linear perceptual means than by uniform cost. While ideally, existing perceptual assessments of Structural Similarity (SSIM) is used, it is not processor friendly. The hybrid framework involves applying an additional low complexity perceptual assessment on top of existing Sum of Absolute Differences (SAD) and Sum of Absolute Transform Differences (SATD) only where distortion is perceptually significant. Consequently, the results show an increase in timing of < +4% and < +6% for video encoded with low delay P and random access profiles respectively, which is complexity competitively to other PVC solutions. This also affects bit redistribution with large reductions in bits allocated to signalling, -5 to -25%, with increases in small, medium and large block sizes. Visually, the proposed encoder encourages larger blocks on perceptually homogeneous regions and more dynamic smaller block where boundaries for textures or activity is occurring. This work can be extended to allow for perceptual quantisation to enable bandwidth reduction while maintaining perceptual quality.
+
+Other related files available on within my corresponding Figshare account, please follow my OrcID url or await for link to collection to be added below.
+
+
+
+
+
+
+`## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/YetishJoshi/InloopPredPercept/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -9,7 +29,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+`Syntax highlighted code block
 
 # Header 1
 ## Header 2
@@ -21,16 +41,16 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
+**Bold** and _Italic_ and ``Code` `text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YetishJoshi/InloopPredPercept/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YetishJoshi/InloopPredPercept/settings). The name of this theme is saved in the Jekyll ``_config.yml` `configuration file.
 
 ### Support or Contact
 
