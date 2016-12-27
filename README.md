@@ -14,3 +14,5 @@ This paper applies the concept of hybrid framework for perceptual video coding (
 
 Other related files available here:
 [https://dx.doi.org/10.6084/m9.figshare.c.3651632](https://dx.doi.org/10.6084/m9.figshare.c.3651632)
+
+[![DOI](https://zenodo.org/badge/77175238.svg)](https://zenodo.org/badge/latestdoi/77175238)
